@@ -136,7 +136,7 @@ void loop(void)
     log1_btn.drawButton(false);
     log2_btn.drawButton(false);
     log3_btn.drawButton(false);
-    tft.fillRect(40, 80, 160, 80, RED);
+//    tft.fillRect(40, 80, 160, 80, RED);
     tft.setTextColor(CYAN);
     tft.setTextSize(2);
     tft.setCursor(0, 10);
@@ -181,7 +181,7 @@ void loop(void)
     Serial.write('>');
 
     log1_btn.drawButton(true);
-    tft.fillRect(40, 80, 160, 80, GREEN);
+//    tft.fillRect(40, 80, 160, 80, GREEN);
     delay(5000);
   }
   else if (log2_btn.justPressed()) {
@@ -191,7 +191,7 @@ void loop(void)
     Serial.write('>');
 
     log2_btn.drawButton(true);
-    tft.fillRect(40, 80, 160, 80, RED);
+//    tft.fillRect(40, 80, 160, 80, RED);
     delay(5000);
   }
   else if (log3_btn.justPressed()) {
@@ -201,7 +201,7 @@ void loop(void)
     Serial.write('>');
     
     log3_btn.drawButton(true);
-    tft.fillRect(40, 80, 160, 80, CYAN);
+//    tft.fillRect(40, 80, 160, 80, CYAN);
     delay(5000);
   }
 }
